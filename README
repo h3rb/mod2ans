@@ -1,0 +1,25 @@
+MOD2ANS
+-------
+
+This package contains 1 PHP script which will convert a 4 channel mod
+into a 3 channel ANSI music code sequence.  No sample data is used
+because the target format only uses FM tones.
+
+Note: lots of P8s at the end indicate empty patterns in the tail end
+which is common in MODs.  Do your own editing after it is converted.
+
+Feel free to modify this script, I ask only that you do not remove
+the credits.
+
+TODO:
+
+ - smartly mix >= 4 channels down to 3
+ - add more control for time signature based on mod file interpretations
+   (data is available inside the .txt files sent with this file)
+
+
+I used this with PTMID3 (an old DOS utility that converts MIDI->MOD,
+which has source code that is available and can be gathered from
+ftp://ftp.us.scene.org
+
+NEW BSD LICENSE - Copyright (c) Herb Gilliland 2013
