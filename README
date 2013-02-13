@@ -14,9 +14,11 @@ the credits.
 TODO:
 
  - smartly mix >= 4 channels down to 3
- - add more control for time signature based on mod file interpretations
+ - add more control for time signature based on better mod file
+   time interpretations
    (data is available inside the .txt files sent with this file)
-
+ - support older 15 channel mods (See notes in source about how
+   to detect this using two 4 byte sequences)
 
 I used this with PTMID3 (an old DOS utility that converts MIDI->MOD,
 which has source code that is available and can be gathered from
